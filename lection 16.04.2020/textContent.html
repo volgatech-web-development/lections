@@ -1,0 +1,10 @@
+<body>
+  <p>Параграф</p>
+  <div>DIV</div>
+  <script>
+    console.log(document.body.textContent); // читаем текущее содержимое
+    setTimeout(function() {
+      document.body.textContent = 'Новый <strong>BODY!</strong>';
+    }, 3000); // заменяем содержимое
+  </script>
+</body>

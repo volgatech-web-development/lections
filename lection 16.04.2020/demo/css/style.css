@@ -1,0 +1,14 @@
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.figure {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #00cc00;
+}
